@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04c8e47f-46ab-43cb-91a8-a63394aa1b6e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2O9Bs9smVgBXs7bhJsJjk2Motuz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Samsung_T5/My Data/_Study/Универ/Файлы/Готовые лабы/ТИП/4 курс/Курсовая/contracting-subsystem/server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Samsung_T5/My Data/_Study/Универ/Файлы/Готовые лабы/ТИП/4 курс/Курсовая/contracting-subsystem/server/node_modules/typescript/lib&quot;,
+    &quot;ts.rename.search.for.dynamic.occurrences&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Deploy DB" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="026a5e7474fd7c6ecf6efafd175b38815e967a07876957adcfdfb44554b00635" />
+          <option name="containerName" value="pg-13-mogilevoblgas" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_DB" />
+                <option name="value" value="mogilevoblgas" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="pgpass" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="pguser" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5432" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="DeactivateBeforeRunTask">
+          <option name="dataSourceId" value="b83fc297-0760-4880-9484-7d9ee4abf78f" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="containerize" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v16.16.0-darwin-x64/bin/node" />
+      <node-options value="--require ts-node/register" />
+      <envs />
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="yarnless build" />
+          </scripts>
+          <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v16.16.0-darwin-x64/bin/node" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Deploy DB" />
+      <item itemvalue="Docker.containerize" />
+      <item itemvalue="npm.start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c8e47f-46ab-43cb-91a8-a63394aa1b6e" name="Changes" comment="" />
+      <created>1680963121064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680963121064</updated>
+      <workItem from="1680963122123" duration="1160000" />
+      <workItem from="1680964307738" duration="79000" />
+      <workItem from="1681150987073" duration="3798000" />
+      <workItem from="1681325493464" duration="4569000" />
+      <workItem from="1681374118927" duration="9321000" />
+      <workItem from="1681394056573" duration="235000" />
+      <workItem from="1681406572695" duration="1234000" />
+      <workItem from="1681483103376" duration="1218000" />
+      <workItem from="1683133523849" duration="1717000" />
+      <workItem from="1683189744576" duration="4305000" />
+      <workItem from="1685018106385" duration="1567000" />
+      <workItem from="1685024105073" duration="8969000" />
+      <workItem from="1685441361828" duration="2441000" />
+      <workItem from="1685450674332" duration="957000" />
+      <workItem from="1685488854085" duration="536000" />
+      <workItem from="1685489430669" duration="1562000" />
+      <workItem from="1685494861850" duration="819000" />
+      <workItem from="1685514649437" duration="963000" />
+      <workItem from="1685520279643" duration="208000" />
+      <workItem from="1685522393516" duration="9955000" />
+      <workItem from="1685879005480" duration="24370000" />
+      <workItem from="1685951618400" duration="3722000" />
+      <workItem from="1686037748256" duration="5223000" />
+      <workItem from="1686053659068" duration="15718000" />
+      <workItem from="1686080668917" duration="16067000" />
+      <workItem from="1686124419674" duration="4476000" />
+      <workItem from="1686146022487" duration="11506000" />
+      <workItem from="1686207596897" duration="840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="includedJSSourcePackages">
+      <set>
+        <option value="class-validator" />
+        <option value="typeorm" />
+      </set>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
