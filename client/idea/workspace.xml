@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19af5bb5-3f10-4abe-bdff-3c0e73d9c988" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O905W1TpA12G37ISxnuk2KNjsV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Samsung_T5/My Data/_Study/Универ/Файлы/Готовые лабы/ТИП/4 курс/Курсовая/contracting-subsystem/client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Samsung_T5/My Data/_Study/Универ/Файлы/Готовые лабы/ТИП/4 курс/Курсовая/contracting-subsystem/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.run">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v16.16.0-darwin-x64/bin/node" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="install --force" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="install" />
+      <arguments value="--force" />
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v16.16.0-darwin-x64/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v16.16.0-darwin-x64/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="npm.run" />
+      <item itemvalue="npm.install --force" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19af5bb5-3f10-4abe-bdff-3c0e73d9c988" name="Changes" comment="" />
+      <created>1680957306583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680957306583</updated>
+      <workItem from="1680957307677" duration="366000" />
+      <workItem from="1680957710361" duration="11000" />
+      <workItem from="1680957742665" duration="500000" />
+      <workItem from="1680960624057" duration="16000" />
+      <workItem from="1680960974625" duration="1540000" />
+      <workItem from="1680962847723" duration="252000" />
+      <workItem from="1680964467399" duration="956000" />
+      <workItem from="1681147360540" duration="1638000" />
+      <workItem from="1681378717538" duration="2428000" />
+      <workItem from="1681406571916" duration="598000" />
+      <workItem from="1681483107204" duration="1200000" />
+      <workItem from="1684318251306" duration="1774000" />
+      <workItem from="1684683037032" duration="639000" />
+      <workItem from="1685023099076" duration="773000" />
+      <workItem from="1685023894724" duration="2000" />
+      <workItem from="1685023973735" duration="65000" />
+      <workItem from="1685024230316" duration="2628000" />
+      <workItem from="1685094335609" duration="3462000" />
+      <workItem from="1685099353349" duration="2918000" />
+      <workItem from="1685187731684" duration="598000" />
+      <workItem from="1685202371203" duration="1109000" />
+      <workItem from="1685301345925" duration="6575000" />
+      <workItem from="1685341969627" duration="6068000" />
+      <workItem from="1685353844104" duration="2836000" />
+      <workItem from="1685356997194" duration="4120000" />
+      <workItem from="1685437611114" duration="6327000" />
+      <workItem from="1685450684687" duration="3883000" />
+      <workItem from="1685485656711" duration="569000" />
+      <workItem from="1685486250729" duration="5776000" />
+      <workItem from="1685514646502" duration="968000" />
+      <workItem from="1685520278153" duration="11000" />
+      <workItem from="1685540994703" duration="3659000" />
+      <workItem from="1685878960745" duration="20457000" />
+      <workItem from="1685951734663" duration="4980000" />
+      <workItem from="1686037044414" duration="12232000" />
+      <workItem from="1686053834002" duration="31061000" />
+      <workItem from="1686124434117" duration="3078000" />
+      <workItem from="1686145620796" duration="18100000" />
+      <workItem from="1686207602727" duration="624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
