@@ -1,0 +1,12 @@
+.error-message {
+  text-align: center;
+}
+
+.error-message h5 {
+  color: red;
+}
+
+.error-message p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+{
+  "entryFile": "src/server.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/controllers/**/*.ts"],
+  "spec": {
+    "basePath": "/",
+    "description": "",
+    "outputDirectory": "public",
+    "specVersion": 3,
+    "specMerging": "recursive",
+    "securityDefinitions": {
+      "jwt": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "routes": {
+    "basePath": "/",
+    "middleware": "express",
+    "authenticationModule": "src/middlewares/auth.ts",
+    "routesDir": "src/routes"
+  },
+  "ignore": ["**/node_modules/**/lodash/**"]
+}
